@@ -1,0 +1,17 @@
+{
+	"private": true,
+	"name": "Mutex",
+	"version": "1.0.0",
+	"homepage": "https://github.com/Perennials/mutex-node",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Perennials/mutex-node.git"
+	},
+	"dependencies": {
+		"fs-ext": "https://github.com/baudehlo/node-fs-ext"
+	},
+	"devDependencies": {
+		"Unitest": "https://github.com/perennials/unitest-js/tarball/master"
+	},
+	"main": "Mutex.js"
+}
