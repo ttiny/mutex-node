@@ -8,7 +8,7 @@
 		"url": "https://github.com/Perennials/mutex-node.git"
 	},
 	"dependencies": {
-		"fs-ext": "https://github.com/baudehlo/node-fs-ext"
+		"fs-ext": "0.5.x"
 	},
 	"devDependencies": {
 		"Unitest": "https://github.com/perennials/unitest-js/tarball/master"
