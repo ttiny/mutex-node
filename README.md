@@ -17,6 +17,7 @@ npm install https://github.com/Perennials/mutex-node
 	- [.waitLock()](#waitlock)
 	- [.tryLock()](#trylock)
 	- [.unlock()](#unlock)
+	- [.isLocked()](#islocked)
 - [Authors](#authors)
 
 <!-- /MarkdownTOC -->
@@ -110,6 +111,13 @@ Releases the lock.
 .unlock(
 	callback:function( err:Error|null )|undefined
 ) : Boolean;
+```
+
+### .isLocked()
+Checks if the mutex is locked.
+
+```js
+.isLocked() : Boolean;
 ```
 
 Authors

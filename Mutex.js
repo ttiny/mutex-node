@@ -50,6 +50,10 @@ class Mutex {
 		}
 	}
 
+	isLocked () {
+		return this._locked;
+	}
+
 	_lockSync ( block ) {
 		
 		if ( !this._fd ) {
